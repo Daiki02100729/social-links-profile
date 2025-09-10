@@ -83,3 +83,8 @@ body {
   background: var(--green);
   color: var(--grey-900);
 }
+
+.links a:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
